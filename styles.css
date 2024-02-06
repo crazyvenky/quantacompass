@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #337ab7; /* Primary color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ... Styles for nav, sections, aside, footer, etc. */
+
+.theme-toggle {
+    background-color: #eee;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #222;
+    color: #eee;
+}
+
+/* ... Dark mode styles for other elements */
+img{
+  width:10%;
+height: 10%;
+border:2px solid black;
+border-radius:33%;
+}
